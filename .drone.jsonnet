@@ -388,7 +388,7 @@ local windows_pipeline(name, image, environment, arch = "amd64") =
 
     windows_pipeline(
         "Windows VS2022 msvc-14.3",
-        "cppalliance/dronevs2022:1",
+        "cppalliance/dronevs2022:2",
         { TOOLSET: 'msvc-14.3', CXXSTD: '14,17,20,latest' },
     ),
 ]
